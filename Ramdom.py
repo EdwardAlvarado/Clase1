@@ -5,8 +5,12 @@ lista =[]
 for i in range(3):
     lista.append(randint(0,100))
 print lista
-
+#booleano inicializado en falso
 adivinado = False
+"""
+ciclo que permite 5 opciones
+verifica si el numero esta en la lista
+"""
 for i in range(5):
     a =input(" Ingrese su valor " )
     if a in lista:

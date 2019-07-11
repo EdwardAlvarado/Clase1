@@ -12,4 +12,9 @@ for i in range(10):
         break
        
 print lista
+print i+1
 
+for i in range(5):
+    a =input(" Ingrese un numero de tres cifras " )
+    if len(a)==3
+    
